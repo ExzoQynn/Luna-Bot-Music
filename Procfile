@@ -1,2 +1,3 @@
-web1 : node npm start
+web1 : node index.js
+work : node index.js
 web: node bootstrap.js
