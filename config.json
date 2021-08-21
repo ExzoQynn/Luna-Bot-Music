@@ -1,4 +1,11 @@
 {
-    "prefix": "!"
-
+    "prefix": "!",
+    "nodes": [
+        {
+            "id": "1",
+            "host": "localhost",
+            "port": "8000",
+            "password": "verysecurepassword"
+        }
+    ]
 }
