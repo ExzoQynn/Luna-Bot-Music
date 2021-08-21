@@ -4,7 +4,7 @@
         {
             "id": "1",
             "host": "localhost",
-            "port": "4333",
+            "port": "2333",
             "password": "verysecurepassword"
         }
     ]
