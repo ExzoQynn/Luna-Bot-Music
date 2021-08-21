@@ -1,2 +1,2 @@
 worker : node index.js
-worker1 : ./start.sh
+worker1 : java -jar Lavalink.jar
