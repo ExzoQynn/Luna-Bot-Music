@@ -1,0 +1,20 @@
+{
+  "name": "bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@lavacord/discord.js": "0.0.7",
+    "axios": "^0.21.1",
+    "discord.js": "^12.5.3",
+    "discord.js-lavalink": "^3.0.1",
+    "erela.js": "^2.3.3"
+  },
+  "devDependencies": {},
+  "description": ""
+}
