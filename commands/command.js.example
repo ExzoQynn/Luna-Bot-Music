@@ -1,0 +1,14 @@
+const discord = require('discord.js');
+
+module.exports = {
+    /**
+     * 
+     * @param {string[]} args 
+     * @param {discord.Message} message 
+     */
+    run: async (args, message) => {
+
+    },
+
+    command: 'yourcommandhere'
+}
