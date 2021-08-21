@@ -86,8 +86,6 @@ fetch("https://api.github.com/repos/freyacodes/Lavalink/releases/latest")
 
 const config = require('./config.json');
 const lavalink = require('@lavacord/discord.js');
-const fs = require('fs').promises;
-
 const client = new discord.Client();
 const lavacordManager = new lavalink.Manager(client, config.nodes);
 
