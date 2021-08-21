@@ -39,7 +39,7 @@ fs.readdir('./commands')
         }
     });
 
-client.login(config.token);
+client.login(process.env.token);
 
 module.exports = {
     client, 
