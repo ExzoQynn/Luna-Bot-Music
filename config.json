@@ -4,8 +4,8 @@
         {
             "id": "1",
             "host": "localhost",
-            "port": "6969",
-            "password": "verysecurepassword"
+            "port": "2333",
+            "password": "youshallnotpass "
         }
     ]
 }
