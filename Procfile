@@ -1,2 +1,2 @@
-web1 : npm start
+web1 : node npm start
 web: node bootstrap.js
