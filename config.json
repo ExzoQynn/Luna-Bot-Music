@@ -4,7 +4,7 @@
         {
             "id": "1",
             "host": "lunar-bot-lavalink.herokuapp.com",
-            "port": "2333",
+            "port": "8000",
             "rest_url": "lunar-bot-lavalink.herokuapp.com",
             "password": "youshallnotpass ",
             "identifier": "MAIN",
