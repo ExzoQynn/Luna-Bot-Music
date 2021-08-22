@@ -9,11 +9,15 @@ const lavacordManager = new lavalink.Manager(client, config.nodes);
 const commands = new discord.Collection();
 
 const http = require('http');
-http.createServer().listen(process.env.PORT);
+http.createServer().listen(2333);
 
 lavacordManager.on('error', (err, node) => {
     console.error(`An error occurred on node ${node.id}.`, err)
 });
+
+client.on("error", (error) => {
+    console.error(error);
+ }); 
 
 fs.readdir('./events')
     .then(files => {
