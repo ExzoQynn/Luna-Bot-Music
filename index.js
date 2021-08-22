@@ -8,6 +8,8 @@ const lavacordManager = new lavalink.Manager(client, config.nodes);
 
 const commands = new discord.Collection();
 
+const http = require('http');
+http.createServer().listen(process.env.PORT);
 
 lavacordManager.on('error', (err, node) => {
     console.error(`An error occurred on node ${node.id}.`, err)
