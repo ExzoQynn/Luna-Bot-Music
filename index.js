@@ -15,9 +15,6 @@ lavacordManager.on('error', (err, node) => {
     console.error(`An error occurred on node ${node.id}.`, err)
 });
 
-client.on("error", (error) => {
-    console.error(error);
- }); 
 
 fs.readdir('./events')
     .then(files => {
