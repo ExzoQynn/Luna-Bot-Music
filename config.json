@@ -3,9 +3,9 @@
     "nodes": [
         {
             "id": "1",
-            "host": "lunar-bot-lavalink.herokuapp.com",
-            "port": "8000",
-            "rest_url": "lunar-bot-lavalink.herokuapp.com",
+            "host": "test-heroku-lavalink.herokuapp.com",
+            "port": "2333",
+            "rest_url": "https://test-heroku-lavalink.herokuapp.com/",
             "password": "youshallnotpass ",
             "identifier": "MAIN",
             "region": "eu"
