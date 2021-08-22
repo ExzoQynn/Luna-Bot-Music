@@ -4,7 +4,7 @@
         {
             "id": "1",
             "host": "test-heroku-lavalink.herokuapp.com",
-            "port": "2333",
+            "port": "8000",
             "rest_url": "https://test-heroku-lavalink.herokuapp.com/",
             "password": "youshallnotpass ",
             "identifier": "MAIN",
